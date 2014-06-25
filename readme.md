@@ -51,5 +51,6 @@ $ cd ..
  
 ### Create Eclipse project
 $ sbt
+
 now use 'eclipse' command before loading the project from eclipse   
 &gt; eclipse
