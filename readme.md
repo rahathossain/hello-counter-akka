@@ -1,12 +1,14 @@
 Simple Akka project using SBT 
 ==============================
 
-## Create Project Directory 
+This is a simple akka project created using sbt from scratch.    
+
+### Create Project Directory 
  $ mkdir hello-counter-akka
 
  $ cd hello-counter-akka
 
-## Create build.sbt File
+### Create build.sbt File
  $ vi build.sbt
 
 ```
@@ -22,47 +24,32 @@ libraryDependencies +=
 resolvers += "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/"  
 ```
 
-## Start sbt
+### Start sbt
  
- $ sbt
+$ sbt
 
  while sbt will load, a project directory will create automatically
  To exit from sbt   
 
- > exit 
+&gt; exit 
 
-## Create plugin.sbt 
+### Create plugin.sbt 
 
- Create plugin.sbt inside /hello-counter-akka/project directory  
+Create plugin.sbt inside /hello-counter-akka/project directory  
  
- $ cd project
+$ cd project
 
- $ vi plugins.sbt
+$ vi plugins.sbt
 
 ```
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.5.0")
 ```
 
- come out from /hello-counter-akka/project to /hello-counter-akka
+come out from /hello-counter-akka/project to /hello-counter-akka
  
- $ cd ..
+$ cd ..
  
-## Create Eclipse project
- $ sbt
- now use 'eclipse' command before loading the project from eclipse   
- > eclipse
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
+### Create Eclipse project
+$ sbt
+now use 'eclipse' command before loading the project from eclipse   
+&gt; eclipse
