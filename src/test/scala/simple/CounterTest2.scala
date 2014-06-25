@@ -20,5 +20,12 @@ class CounterTest2 extends FunSuite
 	  counter ! "get"
 	  expectMsg(2)
 	}
+	
+	test("Test Counter Actor with Wrong Msg")
+	{
+	  val counter = system.actorOf(Props[Counter], "testActorCounter21")
+	  counter ! "unknown"
+	  expectNoMsg(1.second)
+	}
   }
 }
