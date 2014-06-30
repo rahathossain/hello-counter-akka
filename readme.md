@@ -35,7 +35,7 @@ $ sbt
 
 &gt; exit 
 
-### Create plugin.sbt 
+### Create `plugin.sbt`
 
 Create `plugin.sbt` inside */hello-counter-akka/project* directory  
  
