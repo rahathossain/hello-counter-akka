@@ -8,7 +8,7 @@ This is a simple akka project created using sbt from scratch.
 
  $ cd hello-counter-akka
 
-### Create build.sbt File
+### Create `build.sbt` File
  $ vi build.sbt
 
 ```
@@ -25,17 +25,18 @@ resolvers += "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/"
 ```
 
 ### Start sbt
- 
+Use `sbt` command to start sbt 
 $ sbt
 
- while sbt will load, a project directory will create automatically
- To exit from sbt   
+ while sbt will load, a *project* directory will create automatically
+ 
+ To exit from sbt  
 
 &gt; exit 
 
 ### Create plugin.sbt 
 
-Create plugin.sbt inside /hello-counter-akka/project directory  
+Create `plugin.sbt` inside */hello-counter-akka/project* directory  
  
 $ cd project
 
@@ -45,7 +46,7 @@ $ vi plugins.sbt
 addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.5.0")
 ```
 
-come out from /hello-counter-akka/project to /hello-counter-akka
+come out from */hello-counter-akka/project* to */hello-counter-akka*
  
 $ cd ..
  
