@@ -26,6 +26,7 @@ resolvers += "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/"
 
 ### Start sbt
 Use `sbt` command to start sbt 
+
 $ sbt
 
  while sbt will load, a *project* directory will create automatically
